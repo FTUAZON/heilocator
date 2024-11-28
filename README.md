@@ -7,110 +7,59 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>State Universities and Colleges Locator System - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            width: 80%;
-            margin: 30px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        ol {
-            padding-left: 20px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            border: 1px solid #ddd;
-            padding: 10px;
-            font-size: 14px;
-            color: #333;
-            border-radius: 4px;
-            margin: 10px 0;
-            overflow-x: auto;
-        }
-        h2 {
-            color: #555;
-            margin-top: 20px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        .note {
-            background-color: #e9ecef;
-            border-left: 4px solid #007bff;
-            padding: 10px;
-            margin: 15px 0;
-        }
-    </style>
-</head>
-<body>
+Running the State Universities and Colleges Locator System
+Follow these steps to run the system locally:
 
-    <div class="container">
-        <h1>Running the State Universities and Colleges Locator System</h1>
-        
-        <p>Follow these steps to run the system locally:</p>
-        
-        <ol>
-            <li><strong>Open Laragon</strong><br>Start by opening Laragon (your local development environment).</li>
-            <li><strong>Start the Database</strong><br>In Laragon, click on "Start All" to start the database and services.</li>
-            <li><strong>Open the Terminal</strong><br>Next, click on "Terminal" in Laragon to open the command line interface.</li>
-            <li><strong>Change Directory</strong><br>In the terminal, change the directory to your project folder by typing the following command:
-                <pre>cd heilocator</pre>
-            </li>
-            <li><strong>Start the Development Server</strong><br>Once you've changed to the correct directory, start the development server by typing the following command:
-                <pre>php artisan serve</pre>
-                This will start the Laravel development server.
-            </li>
-            <li><strong>Open a New Terminal Tab</strong><br>Open another tab of the terminal. Be sure to change the directory again:
-                <pre>cd heilocator</pre>
-            </li>
-            <li><strong>Compile and Build Assets</strong><br>In the second terminal tab, run the following command to compile and build assets for your Laravel application:
-                <pre>npm run dev</pre>
-            </li>
-            <li><strong>Access the System in Your Browser</strong><br>Open your browser and go to the following URL:
-                <pre>localhost:8000</pre>
-                This will redirect you to the State Universities and Colleges Locator System.
-            </li>
-            <li><strong>Login Credentials</strong><br>On the login screen, use the following credentials:
-                <ul>
-                    <li><strong>Username:</strong> chedro12@ched.gov.ph</li>
-                    <li><strong>Password:</strong> Tuazon-fr123</li>
-                </ul>
-                After logging in, you will be redirected to the homepage.
-            </li>
-            <li><strong>Access the HEI List</strong><br>On the homepage, click the "Continue to HEI list" button. This will take you to the HEI table, where you can start performing CRUD operations (Create, Read, Update, Delete) on the Higher Education Institutions (HEI) data.</li>
-        </ol>
-        
-        <div class="note">
-            <p><strong>Note:</strong> Make sure all dependencies are installed before running the system, including PHP, Composer, and Node.js.</p>
-        </div>
-    </div>
+1. Open Laragon
+Start by opening Laragon (your local development environment).
 
-</body>
-</html>
+2. Start the Database
+In Laragon, click on "Start All" to start the database and services.
+
+3. Open the Terminal
+Next, click on "Terminal" in Laragon to open the command line interface.
+
+4. Change Directory
+In the terminal, change the directory to your project folder by typing the following command:
+
+"cd heilocator"
+
+5. Start the Development Server
+Once you've changed to the correct directory, start the development server by typing the following command:
+
+"php artisan serve"
+
+This will start the Laravel development server.
+
+6. Open a New Terminal Tab
+Open another tab of the terminal. Be sure to change the directory again:
+
+"cd heilocator"
+
+7. Compile and Build Assets
+In the second terminal tab, run the following command to compile and build assets for your Laravel application:
+
+"npm run dev"
+
+8. Access the System in Your Browser
+Open your browser and go to the following URL:
+
+"localhost:8000"
+
+This will redirect you to the State Universities and Colleges Locator System.
+
+9. Login Credentials
+On the login screen, use the following credentials:
+
+Username: chedro12@ched.gov.ph
+Password: Tuazon-fr123
+
+After logging in, you will be redirected to the homepage.
+
+10. Access the HEI List
+On the homepage, click the "Continue to HEI list" button. This will take you to the HEI table, where you can start performing CRUD operations (Create, Read, Update, Delete) on the Higher Education Institutions (HEI) data.
+
+
 
 ## About Laravel
 
