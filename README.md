@@ -8,9 +8,9 @@
 </p>
 
 <h1 align="center">Running the State Universities and Colleges Locator System</h1>    
-Follow these steps to run the system locally:
+<p align="center">Follow these steps to run the system locally:</p>
 
-1. Open Laragon
+<h3 font stylw bold>1. Open Laragon</h3>
 Start by opening Laragon (your local development environment).
 
 2. Start the Database
