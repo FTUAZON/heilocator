@@ -20,31 +20,21 @@ In Laragon, click on "Start All" to start the database and services.
 Next, click on "Terminal" in Laragon to open the command line interface.
 
 4. Change Directory
-In the terminal, change the directory to your project folder by typing the following command:
-
-"cd heilocator"
+In the terminal, change the directory to your project folder by typing the following command: "cd heilocator"
 
 5. Start the Development Server
-Once you've changed to the correct directory, start the development server by typing the following command:
-
-"php artisan serve"
+Once you've changed to the correct directory, start the development server by typing the following command: "php artisan serve"
 
 This will start the Laravel development server.
 
 6. Open a New Terminal Tab
-Open another tab of the terminal. Be sure to change the directory again:
-
-"cd heilocator"
+Open another tab of the terminal. Be sure to change the directory again: "cd heilocator"
 
 7. Compile and Build Assets
-In the second terminal tab, run the following command to compile and build assets for your Laravel application:
-
-"npm run dev"
+In the second terminal tab, run the following command to compile and build assets for your Laravel application: "npm run dev"
 
 8. Access the System in Your Browser
-Open your browser and go to the following URL:
-
-"localhost:8000"
+Open your browser and go to the following URL: "localhost:8000"
 
 This will redirect you to the State Universities and Colleges Locator System.
 
