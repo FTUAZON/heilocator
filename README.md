@@ -10,33 +10,33 @@
 <h1 align="center">Running the State Universities and Colleges Locator System</h1>    
 <p align="center">Follow these steps to run the system locally:</p>
 
-<h3 font style bold>1. Open Laragon</h3>
+<h3>1. Open Laragon</h3>
 Start by opening Laragon (your local development environment).
 
-<h3 font style bold>2. Start the Database</h3>
+<h3>2. Start the Database</h3>
 In Laragon, click on "Start All" to start the database and services.
 
-<h3 font style bold>3. Open the Terminal</h3>
+<h3>3. Open the Terminal</h3>
 Next, click on "Terminal" in Laragon to open the command line interface.
 
-<h3 font style bold>4. Change Directory</h3>
+<h3>4. Change Directory</h3>
 In the terminal, change the directory to your project folder by typing the following command: "cd heilocator"
 
-<h3 font style bold>5. Start the Development Server</h3>
-Once you've changed to the correct directory, start the development server by typing the following command: "php artisan serve" <p font style italic>This will start the Laravel development server.</p>
+<h3>5. Start the Development Server</h3>
+Once you've changed to the correct directory, start the development server by typing the following command: "php artisan serve" This will start the Laravel development server.
 
-<h3 font style bold>6. Open a New Terminal Tab</h3>
+<h3>6. Open a New Terminal Tab</h3>
 Open another tab of the terminal. Be sure to change the directory again: "cd heilocator"
 
-<h3 font style bold>7. Compile and Build Assets</h3>
+<h3>7. Compile and Build Assets</h3>
 In the second terminal tab, run the following command to compile and build assets for your Laravel application: "npm run dev"
 
-<h3 font style bold>8. Access the System in Your Browser</h3>
+<h3>8. Access the System in Your Browser</h3>
 Open your browser and go to the following URL: "localhost:8000"
 
 This will redirect you to the State Universities and Colleges Locator System.
 
-<h3 font style bold>9. Login Credentials</h3>
+<h3>9. Login Credentials</h3>
 On the login screen, use the following credentials:
 
 Username: chedro12@ched.gov.ph
@@ -44,7 +44,7 @@ Password: Tuazon-fr123
 
 After logging in, you will be redirected to the homepage.
 
-<h3 font style bold>10. Access the HEI List</h3>
+<h3>10. Access the HEI List</h3>
 On the homepage, click the "Continue to HEI list" button. This will take you to the HEI table, where you can start performing CRUD operations (Create, Read, Update, Delete) on the Higher Education Institutions (HEI) data.
 
 
