@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Running the State Universities and Colleges Locator System
+<h1 align="center">Running the State Universities and Colleges Locator System</h1>    
 Follow these steps to run the system locally:
 
 1. Open Laragon
